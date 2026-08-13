@@ -22,7 +22,7 @@ const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBh
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
-const DEFAULT_ACCESS_CODE = '0000';
+const DEFAULT_ACCESS_CODE = '1478';
 const CYCLE_DAYS = 90;
 const ALERT_LEAD_DAYS = { hormone: 30, peptide: 0 };
 
